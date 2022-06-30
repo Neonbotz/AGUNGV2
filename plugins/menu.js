@@ -224,12 +224,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       {
         title: 'List Menu ' + namabot,
         rows: [
-          { title: 'Semua Perintah', rowId: `${_p + command} all` },
-          { title: 'Game', rowId: `${_p + command} game` },
-          { title: 'Rpg', rowId: `${_p + command} rpg` },
-          { title: 'XP', rowId: `${_p + command} xp` },
-          { title: 'Stiker', rowId: `${_p + command} stiker` },
-          { title: 'Kerang Ajaib', rowId: `${_p + command} kerangajaib` },
+          { title: '|🎗️| SEMUA PERINTAH', rowId: `${_p + command} all` },
+          { title: '|🎮| GAME', rowId: `${_p + command} game` },
+          { title: '|🏕️| RPG', rowId: `${_p + command} rpg` },
+          { title: '|🎯| XP', rowId: `${_p + command} xp` },
+          { title: '|🌠| STIKER', rowId: `${_p + command} stiker` },
+          { title: 'KERANG AJAIB', rowId: `${_p + command} kerangajaib` },
           { title: 'Quotes', rowId: `${_p + command} quotes` },
           { title: 'Grup', rowId: `${_p + command} grup` },
           { title: 'Premium', rowId: `${_p + command} premium` },
